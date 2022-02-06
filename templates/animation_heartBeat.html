@@ -1,0 +1,53 @@
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+
+<style>
+h1 {
+  animation: mymove 5s infinite;
+text-align: center;
+margin-top: 100px;
+}
+</style>
+            </head>
+
+            <body>
+                <h1 class="animate__animated animate__heartBeat"> HeartBeat Animation</h1>
+            </body> 
+
+        </html>
+        
+        
+        
+        </textarea>
+
+        </div>
+    </section>
+
+
+    <p style="text-align: center; font-size: 22px; margin-top: 60px;"> <a href="index.html"> More Templates </a></p>
+
+    <script>
+        function myFunction() {
+            /* Get the text field */
+            var copyText = document.getElementById("myTest");
+
+            /* Select the text field */
+            copyText.select();
+            copyText.setSelectionRange(0, 999999999999999999); /*For mobile devices*/
+
+            /* Copy the text inside the text field */
+            document.execCommand("copy");
+
+            /* Alert the copied text */
+            alert("Copied to Clipboard !");
+        }
+    </script>
