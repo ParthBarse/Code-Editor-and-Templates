@@ -1,2 +1,2 @@
-# templates
-Awesome Templates Available !
+# Templates with HTML
+This contains different Animations Templates
